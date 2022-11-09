@@ -68,6 +68,24 @@
   --bs-body-bg: #fff;
 }
 
+
+/* Carousel
+------------------------- */
+
+.carousel-item {
+  height: 100vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* Carousel End
+------------------------- */
+
+
 *,
 *::before,
 *::after {
@@ -11514,16 +11532,17 @@ body {
   #mainNav .nav-link {
     transition: none;
     padding: 2rem 1.5rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffff;
   }
   #mainNav .nav-link:hover {
-    color: rgba(255, 255, 255, 0.75);
+    color: #ffffff; 
+    text-decoration: underline;
   }
   #mainNav .nav-link:active {
     color: #fff;
   }
   #mainNav.navbar-shrink {
-    background-color: #fff;
+    background-color: #a29c9c;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #000;
@@ -11534,7 +11553,7 @@ body {
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #ffffff;
   }
   #mainNav.navbar-shrink .nav-link:active {
     color: #467370;
@@ -11695,7 +11714,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #a29c9c;
   }
 }
 .projects-section .project-text {
