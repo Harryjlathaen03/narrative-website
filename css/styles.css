@@ -11764,17 +11764,17 @@ body {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: #000000;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
-  opacity: 1;
+  opacity: 0.50;
 }
 .portfolio .portfolio-item .portfolio-item-caption .portfolio-item-caption-content {
   font-size: 1.5rem;
 }
 
 .portfolio-modal .btn-close {
-  color: #1abc9c;
+  color: #000000;
   font-size: 2rem;
   padding: 1rem;
 }
